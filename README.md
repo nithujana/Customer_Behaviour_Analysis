@@ -1,111 +1,100 @@
-# Customer Shopping Behavior Analysis
+## 📌 Project Overview
 
-## Project Overview
+The goal of this project is to analyze customer shopping behavior and simulate an end-to-end data analytics workflow, demonstrating how raw transactional data can be transformed into meaningful business insights.
 
-This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories. The objective is to identify customer spending patterns, product preferences, subscription behavior, and key business insights through data analysis and visualization. :chatgpt-content-reference{index="0"}
+### Project Workflow
 
-## Objectives
-
-- Analyze customer purchasing behavior
-- Identify high-performing products
-- Evaluate subscription impact on revenue
-- Compare customer segments
-- Create an interactive Power BI dashboard
-
-## Tools & Technologies
-
-- Python (Pandas)
-- SQL
-- Power BI
-- GitHub
-
-## Project Workflow
-
-### 1. Data Cleaning & Preparation
+✅ **Data Preparation & Cleaning (Python - Pandas)**
+- Imported the dataset into Python
+- Explored dataset structure and variables
 - Handled missing values
 - Standardized column names
-- Created new features
 - Performed data quality checks
+- Prepared the dataset for SQL and Power BI analysis
 
-### 2. SQL Business Analysis
+✅ **Business Analysis (SQL)**
+- Loaded the cleaned dataset into SQL
+- Analyzed customer purchasing behavior
+- Evaluated subscription impact on revenue
+- Identified top-performing products
+- Compared customer segments
+- Generated business insights using SQL queries
+
+✅ **Visualization & Insights (Power BI)**
+- Built an interactive Power BI dashboard
+- Created KPI cards and visual reports
+- Analyzed revenue trends
+- Explored category performance
+- Visualized customer demographics and purchasing patterns
+
+✅ **Report & Presentation**
+- Summarized key findings and business recommendations
+- Created a project presentation to communicate insights effectively
+
+---
+
+## 🚀 Project Execution Steps
+
+### Dataset
+- [Customer Shopping Behavior Dataset](customer_shopping_behavior.csv)
+
+
+### 1. Open the Python Notebook
+
+[Python Analysis Notebook](customer_shopping_behavior.ipynb)
+
+This notebook contains:
+
+- Data Import
+- Data Exploration
+- Data Cleaning
+- Feature Engineering
+- Data Preparation for SQL Analysis
+
+### 2. Perform SQL Analysis
+
+- [SQL Business Analysis Queries](customer_shopping_behavior.sql)
+
+This file contains SQL queries used to answer business questions such as:
+
 - Revenue by Gender
 - Top Rated Products
-- Shipping Type Comparison
-- Subscriber vs Non-Subscriber Analysis
+- Subscription Analysis
 - Customer Segmentation
 - Revenue by Age Group
+- Shipping Type Analysis
 
-### 3. Power BI Dashboard
-Interactive dashboard containing:
+### 3. Open the Power BI Dashboard
+
+- [Power BI Dashboard File](customer_shopping_behavior.pbix)
+
+The dashboard includes:
+
 - Customer Overview
 - Revenue Analysis
 - Category Performance
 - Subscription Insights
 - Age Group Analysis
 
-## Repository Structure
+### 4. Review the Presentation
 
-```text
-customer-shopping-behavior-analysis/
-│
-├── README.md
-├── dataset/
-├── python/
-├── sql/
-├── powerbi/
-├── presentation/
-└── images/
-```
+- [Project Presentation PDF](customer_shopping_behavior.pdf)
 
-## Key Insights
+Contains:
 
-- Customer behavior patterns were analyzed using 3,900 transaction records.
-- Subscribers and non-subscribers were compared to understand revenue contribution.
-- Customer segments were classified into New, Returning, and Loyal customers. :chatgpt-content-reference{index="1"}
+- Project Overview
+- Methodology
+- Key Findings
+- Business Recommendations
 
-## Dataset
-- [Customer_Shopping_Behavour](dataset/customer_shopping_behavour.csv)
+---
 
+## 📊 Dashboard Preview
 
-### Dataset Information
+![Dashboard Preview](customer_shopping_behavior.png)
 
-- Records: 3,900 customer purchases
-- Features: 18 columns
-- Includes customer demographics, purchase details, and shopping behavior data
-- Used for data cleaning, SQL analysis, and Power BI dashboard development
+---
 
-### Key Variables
+## 📈 Business Outcome
 
-- Age
-- Gender
-- Location
-- Item Purchased
-- Category
-- Purchase Amount
-- Review Rating
-- Subscription Status
-- Discount Applied
-- Frequency of Purchases
-
-### Data Loading and Initial Exploration
-
-The dataset was imported into Python using the Pandas library. The first five records were displayed using the `head()` function to understand the dataset structure, column names, and sample customer purchase records.
-
-#### Activities Performed
-- Loaded the dataset using `pd.read_csv()`
-- Verified successful data import
-- Displayed the first five rows of the dataset
-- Reviewed customer demographics, purchase details, subscription status, and shopping behavior variables
-
-#### Python Code
-
-```python
-import pandas as pd
-
-df = pd.read_csv("customer_shopping_behavior.csv")
-df.head()
-```
-
-#### Output
-
-![Dataset Preview](dataset%20preview.png)
+This project demonstrates the complete data analytics lifecycle from data preparation and SQL analysis to dashboard development and business reporting. The insights generated can help businesses better understand customer behavior, purchasing patterns, and revenue drivers.
