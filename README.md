@@ -4,6 +4,8 @@ The goal of this project is to analyze customer shopping behavior and simulate a
 
 ### Project Workflow
 
+![Work Flow](work_flow.png)
+
 ✅ **Data Preparation & Cleaning (Python - Pandas)**
 - Imported the dataset into Python
 - Explored dataset structure and variables
@@ -36,7 +38,7 @@ The goal of this project is to analyze customer shopping behavior and simulate a
 ## 🚀 Project Execution Steps
 
 ### Dataset
-- [Customer Shopping Behavior Dataset](customer_shopping_behavior.csv)
+[Customer Shopping Behavior Dataset](customer_shopping_behavior.csv)
 
 
 ### 1. Open the Python Notebook
@@ -53,7 +55,7 @@ This notebook contains:
 
 ### 2. Perform SQL Analysis
 
-- [SQL Business Analysis Queries](customer_shopping_behavior.sql)
+[SQL Business Analysis Queries](customer_shopping_behavior.sql)
 
 This file contains SQL queries used to answer business questions such as:
 
@@ -66,7 +68,7 @@ This file contains SQL queries used to answer business questions such as:
 
 ### 3. Open the Power BI Dashboard
 
-- [Power BI Dashboard File](customer_shopping_behavior.pbix)
+[Power BI Dashboard File](customer_shopping_behavior.pbix)
 
 The dashboard includes:
 
@@ -78,7 +80,7 @@ The dashboard includes:
 
 ### 4. Review the Presentation
 
-- [Project Presentation PDF](customer_shopping_behavior.pdf)
+[Project Presentation PDF](customer_shopping_behavior.pdf)
 
 Contains:
 
@@ -97,4 +99,4 @@ Contains:
 
 ## 📈 Business Outcome
 
-This project demonstrates the complete data analytics lifecycle from data preparation and SQL analysis to dashboard development and business reporting. The insights generated can help businesses better understand customer behavior, purchasing patterns, and revenue drivers.
+This analysis provided valuable insights into customer purchasing behavior, product performance, and subscription trends. The findings can help businesses improve customer engagement, optimize marketing strategies, and support data-driven decision-making.
