@@ -104,3 +104,8 @@ import pandas as pd
 
 df = pd.read_csv("customer_shopping_behavior.csv")
 df.head()
+```
+
+#### Output
+
+![Dataset Preview](dataset%20preview.png)
