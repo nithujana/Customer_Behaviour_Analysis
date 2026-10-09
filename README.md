@@ -33,7 +33,11 @@ The goal of this project is to analyze customer shopping behavior and simulate a
 - Summarized key findings and business recommendations
 - Created a project presentation to communicate insights effectively
 
----
+### 🛠️ Tools & Technologies
+- **Python:** Pandas, Data Cleaning, Exploratory Data Analysis (EDA)
+- **SQL:** Business Queries, Customer Segmentation, Revenue Analysis
+- **Power BI:** Interactive Dashboard, KPI Visualization
+
 
 ## 🚀 Project Execution Steps
 
@@ -78,25 +82,30 @@ The dashboard includes:
 - Subscription Insights
 - Age Group Analysis
 
-### 4. Review the Presentation
+### 🔍 Methodology
+1. Cleaned and preprocessed the dataset using Python.
+2. Handled missing review ratings and created age-group features.
+3. Used SQL to analyze revenue, product ratings, discounts, subscriptions, and customer segments.
+4. Developed an interactive Power BI dashboard to visualize key business insights.
 
-[Project Presentation PDF](customer_shopping_behavior.pdf)
+### 📈 Key Findings
+- Analyzed **3.9K purchase records**, with an average purchase amount of **$59.76**.
+- Young adults generated the highest revenue (**$62,143**).
+- Clothing contributed the highest revenue among the displayed product categories.
+- Gloves achieved the highest average product rating (**3.86/5**).
+- Express-shipping purchases had a higher average purchase amount than standard shipping.
 
-Contains:
-
-- Project Overview
-- Methodology
-- Key Findings
-- Business Recommendations
-
----
+### 💡 Recommendations
+- Strengthen customer loyalty and retention programs.
+- Optimize discounts to balance sales and profitability.
+- Improve subscription benefits to encourage sign-ups.
+- Use customer demographics and product preferences for targeted marketing.
+- Monitor sales, revenue, and customer behavior through Power BI dashboards.
 
 ## 📊 Dashboard Preview
 
 ![Dashboard Preview](customer_shopping_behavior.png)
 
----
+### 🎯 Outcome
+Developed an end-to-end data analytics project demonstrating data cleaning, SQL analysis, business insight generation, and interactive dashboard development.
 
-## 📈 Business Outcome
-
-This analysis provided valuable insights into customer purchasing behavior, product performance, and subscription trends. The findings can help businesses improve customer engagement, optimize marketing strategies, and support data-driven decision-making.
